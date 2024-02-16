@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Lino Panno",
+      "seniority": 1,
+      "status": 0,
+      "avatar": "https://gravatar.com/avatar/72be2d547e5ee065981c0bd069e487a0?s=400&d=robohash&r=x",
+      "project": null
+    }
+  ]
+}

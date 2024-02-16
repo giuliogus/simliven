@@ -1,0 +1,39 @@
+{
+  "name": "sim-sw-house",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Sim Software House",
+  "author": "Giulio Cervi",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "autoprefixer": "^10.4.17",
+    "pinia": "^2.0.11",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "quasar": "^2.8.0",
+    "vue": "3.4.15",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.4.3",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "node-sass": "^9.0.0",
+    "prettier": "^2.5.1",
+    "sass-loader": "^14.1.0",
+    "unocss": "^0.58.5"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
