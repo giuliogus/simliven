@@ -12,7 +12,6 @@ const props = defineProps({
         v-for="row in rows"
         :key="row.id"
         :row="row"
-        @select-row="alert('test')"
       />
     </tbody>
   </table>
